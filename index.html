@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Header Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .aboutme {
+            background-position: center center;
+            background-image: url("aboutme.png");
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            margin-top: 0; 
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+            background-blend-mode: hard-light;
+        }
+        .projects {
+            background-position:0% center;
+            background-image: url("projects.png");
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            margin-top: 0; 
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+            background-blend-mode: hard-light;
+            margin:0;
+        }
+        .skills {
+            background-position: 0% center;
+            background-image: url("skills.png");
+            background-blend-mode: hard-light;
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            margin-top: 0; 
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        }
+        .genp {
+            border-top: 2px solid rgba(0, 0, 0, 0.1);
+            color: rgba(0, 0, 0, 0.5)
+        }
+    </style>
+</head>
+<body>
+    <pre>
+    <header class="text-center py-4 aboutme">
+        <b class="h1"> MIHIR KAMAT </b>
+        <br>
+        / I like low-level programming and system design /
+        / Experienced in program optimization, SIMD vectorization, video codec enhancement /
+        / C, C++ enjoyer /
+        / Minimalist / 
+        / I try to follow <a class="link-secondary link-offset-3" href="https://suckless.org/coding_style/">suckless</a> principles when I can /    
+    </header>
+    <p class="text-center projects">
+        <br>
+        <br>
+        / <a class="link-secondary link-offset-3" href="./resume.pdf">My Resume</a> / <a class="link-secondary link-offset-3" href="https://github.com/kamatmihir2002">My GitHub</a> /
+        <br>
+        <br>
+    </p>
+    <p class="text-center skills">
+        / Low Level Programming (C, C++, asm) / Compiler Programming /
+        / HPC / Parallel Programming / Distributed Computing /
+        / GPU Programming / CUDA / Multithreaded Design /
+        / Graphics Programming / Game Engine Development /
+        / Deep Learning - Training and Inference / Tensors and MLOps /
+    </p>
+    <p class="text-center genp">
+        <br>
+        <i>"Do one thing and do it well."</i>
+    </p>
+    </pre>  
+</body>
+</html>
